@@ -1,0 +1,138 @@
+
+.main{
+    background-color: lightgray;
+}
+.redborder{
+    border: 7px solid red;
+}
+.curveborder{
+    border-radius: 15px;
+}
+.greenborder{
+    border: 7px solid green;
+}
+/* top section  */
+#topdiv{
+    justify-content: center;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 5px 5px 5px purple;
+    font-size: xx-large;
+    font: bolder;
+    font-style: italic;
+    font-weight: bolder;
+    color: purple;
+    text-shadow: 2px 2px darkgray;
+}
+/* mid section  */
+#middiv{
+    padding: 1%;
+}
+
+#topleftdiv{
+    display: inline-block;
+    background-color: pink;
+    padding: 15px;
+    height: 250px;
+    width: 250px;
+    font-size: xx-large;
+    font-weight: bold;
+    text-shadow: 2px 2px lightcoral;
+    box-shadow: 5px 5px 5px black;
+}
+#toprightdiv{
+    background-color: pink;
+    background-image: url(./groceryimage.jpg);
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    float: right;
+    padding: 15px;
+    box-shadow: 5px 5px 5px black;
+}
+#bottomleftdiv{
+    display: inline-block;
+    background-color: pink;
+    padding: 15px;
+    height: 250px;
+    width: 250px;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    text-shadow: 2px 2px lightcoral;
+    box-shadow: 5px 5px 5px black;
+}
+#bottomrightdiv{
+    background-color: pink;
+    padding: 15px;
+    float: right;
+    text-shadow: 1px 1px lightcoral;
+    height: 250px;
+    width: 250px;
+    box-shadow: 5px 5px 5px black;
+    text-align: center;
+}
+
+/* bottom div section */
+.bottomdiv{
+    display: inline-block;
+    text-align: center;
+    background-color: indianred;
+    border: 5px solid darkslategray;
+    margin: 1%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.Tbottomdiv{
+    display: flex;
+}
+.T1bottomdiv{
+    background-color: lightpink;
+    padding: 15px;
+    font-size: small;
+    font-style: italic;
+    font-weight: bold;
+    margin: 1%;
+}
+.T2bottomdiv{
+    background-color: lightpink;
+    padding: 15px;
+    font-size: small;
+    font-style: italic;
+    font-weight: bold;
+    margin: 1%;
+}
+.Bbottomdiv{
+    background-color: lightpink;
+    padding: 15px;
+    font-size: small;
+    font-style: italic;
+    font-weight: bold;
+    margin: 1%;
+}
+
+/* bottom absolute div  */
+
+.absbottomdiv{
+    display: flex;
+    position: fixed;
+    background-color: lightblue;
+    margin-left: 30%;
+    bottom: 0px;
+    margin-bottom: -13px;
+    padding: 10px;
+}
+.abs1{
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: italic;
+    margin: 10px;
+}
+.abs2{
+    font-size: medium;
+    font-weight: bolder;
+    font-style: italic;
+    margin: 10px;
+    padding: 10px;
+}
